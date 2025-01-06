@@ -4,7 +4,7 @@ XGBOOST Model for Diamonds Dataset
 ## Project Structure
 
 ```python
-deployment_demo_model_training/
+Deployment_XGBoost_Diamonds_Dataset/
 ├── data/                     # Input data folder (ignored by Git)
 ├── models/                   # Trained models folder (ignored by Git)
 ├── src/                      # Source code
@@ -42,8 +42,8 @@ All dependencies are listed in `pyproject.toml`. Key libraries include:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/gillopy/deployment_model_xgboost_heart_disease
-   cd deployment_demo_model_training
+   git clone https://github.com/gillopy/Deployment_XGBoost_Diamonds_Dataset
+   cd Deployment_XGBoost_Diamonds_Dataset
    ```
 
 2. **Install Dependencies**:
