@@ -173,8 +173,8 @@ cython_debug/
 .codegpt
 
 # Ignore the data folder
-data/
+# data/
 
 # Ignore the models folder
-models/
+# models/
 .codegpt
