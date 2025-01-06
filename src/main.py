@@ -25,9 +25,9 @@ def main():
     # Evaluar modelo
     rmse, mae, r2 = evaluate_model(model, test_data=X_test_processed, y_test=y_test)
     
-    print(f"RMSE: {rmse:.3f}")
-    print(f"MAE: {mae:.3f}")
-    print(f"R2: {r2:.3f}")
+    print(f"RMSE: {rmse:.2f}")
+    print(f"MAE: {mae:.2f}")
+    print(f"R2: {r2:.2f}")
     
     # Guardar modelo
     save_model(model, model_path="models/trained_model")
