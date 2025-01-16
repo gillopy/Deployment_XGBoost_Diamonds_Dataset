@@ -1,19 +1,19 @@
-[tool.poetry]
-name = "XGBoost for Diamonds Dataset"
+[project]
+name = "src"
 version = "0.1.0"
-description = "\"Pipeline de entrenamiento para Diamonds Dataset\""
-authors = ["Guillermo <guillermocabrera9710@gmail.com>"]
-license = "\"APACHE 2.0\""
+description = "pipeline"
+authors = [
+    {name = "Guillermo",email = "guillermocabrera9710@hotmail.com"}
+]
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.11"
-pandas = "^2.2.3"
-scikit-learn = "^1.6.0"
-xgboost = "^2.1.3"
-joblib = "^1.4.2"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "xgboost (>=2.1.3,<3.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)"
+]
 
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
